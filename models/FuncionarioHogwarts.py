@@ -1,4 +1,4 @@
-from Pessoa import Pessoa
+from models.Pessoa import Pessoa
 
 class FuncionarioHogwarts(Pessoa):
     def __init__(self, nome, sobrenome, funcao="Em contratação"):

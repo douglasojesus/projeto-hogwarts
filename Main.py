@@ -1,6 +1,6 @@
-from docs.AlunoHogwarts import AlunoHogwarts
-from docs.EscolaHogwarts import EscolaHogwarts
-from docs.FuncionarioHogwarts import FuncionarioHogwarts
+from models.AlunoHogwarts import AlunoHogwarts
+from models.EscolaHogwarts import EscolaHogwarts
+from models.FuncionarioHogwarts import FuncionarioHogwarts
 
 def listar_pessoas(pessoas):
     for pessoa in pessoas:

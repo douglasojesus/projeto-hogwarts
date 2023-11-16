@@ -1,4 +1,4 @@
-from Pessoa import Pessoa
+from models.Pessoa import Pessoa
 
 class AlunoHogwarts(Pessoa):
     id = 0
