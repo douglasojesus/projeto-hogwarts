@@ -6,12 +6,6 @@ class AlunoHogwarts(Pessoa, models.Model):
     ano = models.PositiveIntegerField()
     varinha = models.CharField(max_length=50)
     
-    def __init__(self, nome, sobrenome, casa, ano, varinha):
-        super().__init__(nome, sobrenome)
-        self.casa = casa
-        self.ano = ano
-        self.varinha = varinha
-    
     def __repr__(self):
         return f"Aluno: {super().__repr__()} Casa: {self.casa} Ano: {self.ano} Varinha: {self.varinha}"
 
