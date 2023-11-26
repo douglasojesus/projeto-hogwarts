@@ -1,6 +1,6 @@
 from django.db import models
-from aluno.models import Aluno
-from funcionario.models import Funcionario
+from aluno.models import AlunoHogwarts as Aluno
+from funcionario.models import FuncionarioHogwarts as Funcionario
 
 class EscolaHogwarts(models.Model):
     nome = models.CharField(max_length=100)
